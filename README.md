@@ -35,16 +35,21 @@ struct ContentView: View {
 3. Handle navigation using the Router functions
 
 /// Navigate to a specific destination by appending it to the stack.
-	func push(destination: Destination)
+	
+func push(destination: Destination)
 
 /// Navigate to multiple destinations by appending them to the stack.
-    func push(destination: [Destination])
+    
+func push(destination: [Destination])
     
 /// Navigate back in the stack.
-    func pop()
+    
+func pop()
 
 /// Navigate back in the stack by a specified count.
-    func pop(atIndex: Int)
+    
+func pop(atIndex: Int)
 
 /// Navigate to the root of the stack by emptying it.
-    func popToRoot()
+    
+func popToRoot()
